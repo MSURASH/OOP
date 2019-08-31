@@ -10,12 +10,12 @@ public class Feline extends Animal{
 	
 	public List<String> getlist(){
 		
-		
-		ll.add("tiger");
-		ll.add("zebra");
-		ll.add("bull");
-		ll.add("bull");
-		ll.add("bull");
+		super.breed = "Tiger";
+		ll.add(super.getBreed());
+		super.breed = "Zebra";
+		ll.add(super.getBreed());
+		super.breed = "Cow";
+		ll.add(super.getBreed());
 
 		return ll;
 	}

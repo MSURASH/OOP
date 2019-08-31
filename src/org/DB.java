@@ -8,9 +8,9 @@ public class DB {
 		// TODO Auto-generated method stub
 		RandomNum r = new RandomNum();
 		//System.out.println(r.getRandNum());
-		//int uuid = r.getRandNum();
-		//int val = r.singleFetch(uuid);
-		//System.out.println(val);
+//		int uuid = r.getRandNum();
+//		int val = r.singleFetch(uuid);
+//		System.out.println(val);
 		try {
 			String val = r.insert();
 			System.out.println(val);
